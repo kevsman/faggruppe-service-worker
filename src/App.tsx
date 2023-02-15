@@ -1,14 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import HomePage from './pages/Home';
 import SiteHeaderComponent from './components/site-header/SiteHeaderComponent';
+import { AppProvider } from './contexts/AppContext';
 
 function App() {
   return (
     <>
-      <SiteHeaderComponent />
-      <HomePage />
+      <AppProvider>
+        <SiteHeaderComponent />
+        <HomePage />
+      </AppProvider>
     </>
   );
 }
