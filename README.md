@@ -67,3 +67,4 @@ Dvs at data ikke blir oppdatert. Vi trenger en mekanisme for å hente ny data.
 https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
 https://developer.chrome.com/docs/workbox/service-worker-overview/
 https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
+https://developer.chrome.com/docs/workbox/caching-strategies-overview/
