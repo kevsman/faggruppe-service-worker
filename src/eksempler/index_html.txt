@@ -1,0 +1,16 @@
+// Finner ut om nettleser støtter service worker
+// Registrerer service worker under stien '/' + serviceWorkerFileName.js
+window.addEventListener('load', () => {
+    if ('serviceWorker' in navigator) {
+        try {
+            const registration = navigator.serviceWorker.register("serviceWorkerName").then((registration) => {
+                console.log('Service worker registration succeeded:', registration);
+            });
+        } catch (error) {
+            console.error(`Registration failed with ${error}`);
+        }
+    }
+});
+
+
+
