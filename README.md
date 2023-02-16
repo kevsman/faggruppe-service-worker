@@ -61,3 +61,9 @@ Dvs at data ikke blir oppdatert. Vi trenger en mekanisme for å hente ny data.
 
 -   Endre funksjonene som er referert til under "// Kode som blir brukt i oppgave 7" i service-worker-eks.js
 -   Set minutesBeforeExpiry til 1 for å se at cachen blir oppdatert etter 1 minutt
+
+# Resources
+
+https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
+https://developer.chrome.com/docs/workbox/service-worker-overview/
+https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
