@@ -14,11 +14,7 @@ const HomePage: React.FC<Props> = (props) => {
     const { isLoadingEverything } = useAppStore();
 
     useEffect(() => {
-        getMyProfile();
-        getBiits();
-        getNews();
-        getFriends();
-        // getEverything();
+        getEverything();
     }, []);
     return (
         <>
